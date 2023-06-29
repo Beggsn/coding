@@ -26,6 +26,6 @@ Hier sind einige Projekte, an denen ich während meines Studiums und meiner Boot
 
 ## Kontakt
 
-Wenn Sie an meiner Arbeit interessiert sind oder Fragen haben, können Sie mich per E-Mail unter [berkant.cetin@example.com](mailto:b.cetin.berlin@icloud.com) erreichen.
+Wenn Sie an meiner Arbeit interessiert sind oder Fragen haben, können Sie mich per E-Mail unter [b.cetin.berlin@icloud.com](mailto:b.cetin.berlin@icloud.com) erreichen.
 
 Vielen Dank für Ihr Interesse an meiner CV!
