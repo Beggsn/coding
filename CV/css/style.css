@@ -1,8 +1,9 @@
+/* === GENERAL === */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', 'Cousine', sans-serif;
 }
 
 /* === Fonts === */
@@ -32,4 +33,20 @@
     font-family: 'open_sansregular';
     src: url('../fonts/opensans-regular-webfont.woff2') format('woff2'),
          url('../fonts/opensans-regular-webfont.woff') format('woff');
+}
+@font-face {
+    font-family: 'Cousine';
+    src: url('../fonts/Cousine-Regular.ttf') format('truetype');
+    src: url('../fonts/Cousine-Bold.ttf') format('truetype');
+    font-style: normal;
+}
+
+header,main {
+    padding: 16px;
+}
+
+
+
+li {
+    list-style: none;
 }
