@@ -1,12 +1,12 @@
 /* === GENERAL STYLES === */
 * {
-    box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
-    /* outline: 1px solid black; */
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  /* outline: 1px solid black; */
 }
 
 body {
-    margin: 0;
+  margin: 0;
 }
 
 h1,
@@ -15,81 +15,105 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Cousine';
+  font-family: "Cousine", sans-serif;
 }
 
 /* === FONTS === */
 @font-face {
-    font-family: 'open_sansbold';
-    src: url('../fonts/opensans-bold-webfont.woff2') format('woff2'),
-        url('../fonts/opensans-bold-webfont.woff') format('woff');
-    font-style: bold;
+  font-family: "open_sansbold";
+  src: url("../fonts/opensans-bold-webfont.woff2") format("woff2"),
+    url("../fonts/opensans-bold-webfont.woff") format("woff");
+  font-style: bold;
 }
 
 @font-face {
-    font-family: 'open_sansbold_italic';
-    src: url('../fonts/opensans-bolditalic-webfont.woff2') format('woff2'),
-        url('../fonts/opensans-bolditalic-webfont.woff') format('woff');
-    font-weight: bold;
-    font-style: italic;
+  font-family: "open_sansbold_italic";
+  src: url("../fonts/opensans-bolditalic-webfont.woff2") format("woff2"),
+    url("../fonts/opensans-bolditalic-webfont.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
 }
 
 @font-face {
-    font-family: 'open_sansitalic';
-    src: url('../fonts/opensans-italic-webfont.woff2') format('woff2'),
-        url('../fonts/opensans-bolditalic-webfont.woff') format('woff');
-    font-style: italic;
+  font-family: "open_sansitalic";
+  src: url("../fonts/opensans-italic-webfont.woff2") format("woff2"),
+    url("../fonts/opensans-bolditalic-webfont.woff") format("woff");
+  font-style: italic;
 }
 
 @font-face {
-    font-family: 'open_sansregular';
-    src: url('../fonts/opensans-regular-webfont.woff2') format('woff2'),
-        url('../fonts/opensans-regular-webfont.woff') format('woff');
+  font-family: "open_sansregular";
+  src: url("../fonts/opensans-regular-webfont.woff2") format("woff2"),
+    url("../fonts/opensans-regular-webfont.woff") format("woff");
 }
 
 @font-face {
-    font-family: 'Cousine';
-    src: url('../fonts/Cousine-Regular.ttf') format('truetype');
-    font-style: normal;
+  font-family: "Cousine";
+  src: url("../fonts/Cousine-Regular.ttf") format("truetype");
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Cousine';
-    src: url('../fonts/Cousine-Bold.ttf') format('truetype');
-    font-weight: bold;
+  font-family: "Cousine";
+  src: url("../fonts/Cousine-Bold.ttf") format("truetype");
+  font-weight: bold;
 }
-
-
-
 
 /* === SPECIFIC STYLES === */
 .header {
-    padding: 48px 24px;
-    text-align: center;
-    background-color: #DDDDDD;
+  padding: 48px 24px;
+  text-align: center;
+  background-color: #dddddd;
 }
 
 .header p {
-    font: italic bold 20px 'Cousine';
+  font: italic bold 20px "Cousine";
 }
 
 .header a {
-    text-decoration: none;
-    font-size: 1.2em;
-    color: black;
-    
+  text-decoration: none;
+  font-size: 1.2em;
+  color: black;
+}
+
+nav a {
+  display: inline-block;
+  margin: 15px;
 }
 
 .main {
-    padding: 48px 24px;
-    max-width: 800px;
-    margin: 0 auto;
+  padding: 48px 24px;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
-article {
-    margin-bottom: 16px;
+.main * + * {
+  margin-top: 36px;
 }
 
 li {
-    list-style: none;
+  list-style: none;
+}
+
+.main > * + * {
+  margin-top: 1.2em;
+  border-top: 2px solid #E20074;
+}
+
+a:link {
+  color: #e20074;
+  border-radius: 5px;
+  transition: color 0.6s;
+}
+
+a:visited {
+  color: #088696;
+}
+
+a:hover {
+  color: #e3cb17;
+}
+
+a:active {
+  color: currentColor;
 }
