@@ -18,6 +18,11 @@ h6 {
   font-family: "Cousine", sans-serif;
 }
 
+
+*::selection {
+  background-color: #E20074
+}
+
 /* === FONTS === */
 @font-face {
   font-family: "open_sansbold";
@@ -74,6 +79,10 @@ h6 {
   text-decoration: none;
   font-size: 1.2em;
   color: black;
+}
+
+.profession::after {
+  content: " 🆚 ";
 }
 
 nav a {
