@@ -2,7 +2,7 @@
 
 * {
   box-sizing: border-box;
-  /* outline: 1px solid black; */
+  outline: 1px solid black;
 }
 
 html {
@@ -131,4 +131,12 @@ li {
 
 .mail-link {
   text-decoration: none;
+}
+
+.experience-heading {
+  display: inline-block;
+}
+
+.experience-subheading {
+  display: inline-block;
 }
