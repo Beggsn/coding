@@ -1,8 +1,11 @@
 /* === GENERAL STYLES === */
 * {
   box-sizing: border-box;
-  font-family: "Open Sans", sans-serif;
   /* outline: 1px solid black; */
+}
+
+html {
+  font-family: "Open Sans", sans-serif;
 }
 
 body {
