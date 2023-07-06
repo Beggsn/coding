@@ -7,6 +7,7 @@
 
 html {
   font-family: "Open Sans", sans-serif;
+  font-size: 16px;
 }
 
 body {
@@ -75,13 +76,14 @@ li {
 
 /* === HEADER STYLES === */
 .header {
-  padding: 48px 24px;
+  padding: 3rem 2rem;
   text-align: center;
   background-color: #dddddd;
+  position: relative;
 }
 
 .profession {
-  font: normal bold 20px "Cousine";
+  font: normal bold 1.5rem "Cousine";
 }
 
 .profession::after {
@@ -90,8 +92,8 @@ li {
 
 .header-nav-link {
   display: inline-block;
-  font-size: 1.2em;
-  margin: 15px;
+  font-size: 1.2rem;
+  margin: .93rem;
   text-decoration: none;
 }
 
@@ -114,31 +116,31 @@ li {
 
 .header-aside-hire{
   background-color: #e20074;
-  border-radius: 5px;
+  border-radius: .31rem;
   color: #fff;
-  padding: 8px;
+  padding: .5rem;
   position: absolute;
-  right: 16px;
-  top: 16px;
+  right: 1rem;
+  top: 1rem;
   outline: none;
 }
 
 /* === MAIN STYLES === */
 
 .main {
-  padding: 16px;
-  max-width: 800px;
+  padding: 1rem;
+  max-width: 55ch;
   margin: 0 auto;
 }
 
 .main * + * {
-  margin-top: 36px;
+  margin-top: 2.25rem;
 }
 
 .main > *  {
   margin-top: 1.2em;
-  border-top: 2px solid #E20074;
-  padding: 0 20px;
+  border-top: .12rem solid #E20074;
+  padding: 0 1.25rem;
 }
 
 .mail-link {
@@ -147,7 +149,7 @@ li {
 
 .experience-heading {
   display: inline-block;
-  margin-right: 5px;
+  margin-right: .3rem;
 }
 
 .experience-subheading {
@@ -156,7 +158,7 @@ li {
 
 .article-heading {
   position: relative;
-  left: -16px;
+  left: -1rem;
 }
 
 .aside-coffee{
@@ -165,8 +167,8 @@ li {
   color: #fff;
   position:fixed;
   outline: none;
-  border-radius: 6px;
-  padding: 6px;
-  bottom: 16px;
-  right: 16px;
+  border-radius: .37rem;
+  padding: .37rem;
+  bottom: 1rem;
+  right: 1rem;
 }
