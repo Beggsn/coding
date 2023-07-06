@@ -115,7 +115,7 @@ li {
 /* === MAIN STYLES === */
 
 .main {
-  padding: 48px 24px;
+  padding: 16px;
   max-width: 800px;
   margin: 0 auto;
 }
@@ -124,9 +124,10 @@ li {
   margin-top: 36px;
 }
 
-.main > * + * {
+.main > *  {
   margin-top: 1.2em;
   border-top: 2px solid #E20074;
+  padding: 0 20px;
 }
 
 .mail-link {
@@ -135,8 +136,14 @@ li {
 
 .experience-heading {
   display: inline-block;
+  margin-right: 5px;
 }
 
 .experience-subheading {
   display: inline-block;
+}
+
+.article-heading {
+  position: relative;
+  left: -16px;
 }
