@@ -119,18 +119,7 @@ li {
   padding: 8px;
   position: absolute;
   right: 16px;
-  top: 20px;
-  outline: none;
-}
-
-.header-aside-coffee{
-  background-color: #e20074;
-  border-radius: 5px;
-  color: #fff;
-  padding: 8px;
-  position: absolute;
-  right: 16px;
-  top: auto;
+  top: 16px;
   outline: none;
 }
 
@@ -168,4 +157,16 @@ li {
 .article-heading {
   position: relative;
   left: -16px;
+}
+
+.aside-coffee{
+  background-color: #e20074;
+  border: none;    
+  color: #fff;
+  position:fixed;
+  outline: none;
+  border-radius: 6px;
+  padding: 6px;
+  bottom: 16px;
+  right: 16px;
 }
