@@ -28,7 +28,7 @@ li {
 }
 
 *::selection {
-  background-color: #E20074
+  background-color: #e20074;
 }
 
 /* === FONTS === */
@@ -73,17 +73,26 @@ li {
 }
 
 /* === SPECIFIC STYLES === */
-
 /* === HEADER STYLES === */
+
 .header {
   padding: 3rem 2rem;
+  padding-top: 4rem;
   text-align: center;
   background-color: #dddddd;
   position: relative;
 }
 
+.heading-grp {
+  font-size: 4rem;
+}
+
+.my-intro-heading {
+  font-size: 1em;
+}
+
 .profession {
-  font: normal bold 1.5rem "Cousine";
+  font-size: 0.4em;
 }
 
 .profession::after {
@@ -93,7 +102,7 @@ li {
 .header-nav-link {
   display: inline-block;
   font-size: 1.2rem;
-  margin: .93rem;
+  margin: 0.93rem;
   text-decoration: none;
 }
 
@@ -114,11 +123,11 @@ li {
   color: currentColor;
 }
 
-.header-aside-hire{
+.header-aside-hire {
   background-color: #e20074;
-  border-radius: .31rem;
+  border-radius: 0.31rem;
   color: #fff;
-  padding: .5rem;
+  padding: 0.5rem;
   position: absolute;
   right: 1rem;
   top: 1rem;
@@ -129,7 +138,7 @@ li {
 
 .main {
   padding: 1rem;
-  max-width: 55ch;
+  max-width: 60ch;
   margin: 0 auto;
 }
 
@@ -137,10 +146,14 @@ li {
   margin-top: 2.25rem;
 }
 
-.main > *  {
+.main > * {
   margin-top: 1.2em;
-  border-top: .12rem solid #E20074;
+  border-top: 0.125rem solid #e20074;
   padding: 0 1.25rem;
+}
+
+.main > *:first-child {
+  border-top: none;
 }
 
 .mail-link {
@@ -149,7 +162,7 @@ li {
 
 .experience-heading {
   display: inline-block;
-  margin-right: .3rem;
+  margin-right: 0.3rem;
 }
 
 .experience-subheading {
@@ -161,14 +174,14 @@ li {
   left: -1rem;
 }
 
-.aside-coffee{
+.aside-coffee {
   background-color: #e20074;
-  border: none;    
+  border: none;
   color: #fff;
-  position:fixed;
+  position: fixed;
   outline: none;
-  border-radius: .37rem;
-  padding: .37rem;
+  border-radius: 0.37rem;
+  padding: 0.37rem;
   bottom: 1rem;
   right: 1rem;
 }
