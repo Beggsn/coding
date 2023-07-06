@@ -2,7 +2,7 @@
 
 * {
   box-sizing: border-box;
-  outline: 1px solid black;
+  /* outline: 1px solid black; */
 }
 
 html {
@@ -110,6 +110,28 @@ li {
 
 .header-nav-link:active {
   color: currentColor;
+}
+
+.header-aside-hire{
+  background-color: #e20074;
+  border-radius: 5px;
+  color: #fff;
+  padding: 8px;
+  position: absolute;
+  right: 16px;
+  top: 20px;
+  outline: none;
+}
+
+.header-aside-coffee{
+  background-color: #e20074;
+  border-radius: 5px;
+  color: #fff;
+  padding: 8px;
+  position: absolute;
+  right: 16px;
+  top: auto;
+  outline: none;
 }
 
 /* === MAIN STYLES === */
