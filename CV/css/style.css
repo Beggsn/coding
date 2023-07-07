@@ -31,6 +31,20 @@ li {
   background-color: #e20074;
 }
 
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 18px;
+  }
+  
+}
+
+@media screen and (min-width: 992px) {
+  html {
+    font-size: 20px;
+  }
+  
+}
+
 /* === FONTS === */
 @font-face {
   font-family: "open_sansbold";
@@ -99,6 +113,12 @@ li {
   content: " 🆚 ";
 }
 
+@media screen and (max-width: 768px) {
+  .profession::after {
+    content: none;
+  }
+}
+
 .header-nav-link {
   display: inline-block;
   font-size: 1.2rem;
@@ -134,6 +154,23 @@ li {
   outline: none;
 }
 
+@media screen and (min-width: 992px) {
+  .header-aside-hire {
+    position: fixed;
+  }
+}
+
+@media print {
+  .header-aside-hire {
+    display: none;
+  }
+  .header-nav {
+    display: none;
+  }
+}
+
+
+
 /* === MAIN STYLES === */
 
 .main {
@@ -144,6 +181,14 @@ li {
 
 .main * + * {
   margin-top: 2.25rem;
+}
+
+@media screen and (min-width: 768px) {
+  .main > * + * {
+    margin-top: 5rem;
+    line-height: 3rem;
+  }
+  
 }
 
 .main > * {
@@ -174,7 +219,7 @@ li {
   left: -1rem;
 }
 
-.aside-coffee {
+/* .aside-coffee {
   background-color: #e20074;
   border: none;
   color: #fff;
@@ -184,4 +229,4 @@ li {
   padding: 0.37rem;
   bottom: 1rem;
   right: 1rem;
-}
+} */
