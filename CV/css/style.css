@@ -154,15 +154,19 @@ a:active
 
 .nav-link:hover {
   color: var(--quaternary-color);
+  background-color:var(--quinary-color);
+  border-radius: 5px;
 }
 
 .nav-link:active {
   color: currentColor;
+  border-radius: 5px;
 }
 
 .nav-link:focus {
   background-color: var(--quaternary-color);
   outline-color: var(--quinary-color);
+  border-radius: 5px;
 }
 
 .header-aside-hire {
