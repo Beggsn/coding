@@ -4,7 +4,7 @@
 
 * {
   box-sizing: border-box;
-  /* outline: 1px solid black; */
+  outline: 1px solid black;
 }
 
 :root {
@@ -209,14 +209,10 @@ a:active
 
 
 
-.main > * {
+.main-article {
   margin-top: 1.2em;
-  border-top: 0.125rem solid #e20074;
+  border-top: 0.125rem solid #E20074;
   padding: 0 1.25rem;
-}
-
-.main > *:first-child {
-  border-top: none;
 }
 
 .mail-link {
@@ -271,10 +267,30 @@ footer .footer-link {
   .nav-link + .nav-link {
     margin-left: 1rem;
   }
+  .main {
+    max-width: 80ch;
+  }
   .main > * + * {
-    margin-top: 5rem;
+    margin-top: 8rem;
     line-height: 3rem;
   }
+  .main > *:first-child {
+    border-top: none;
+  }
+  .main-article {
+    display: grid;
+    grid-template-columns: 1fr 2.5fr;
+  }
+
+  .main-article-content {
+    margin-top: 4rem;
+  }
+
+  .main-article-heading {
+    position: relative;
+    left: -1rem;
+  }
+
   .experience-header {
     display: flex;
     flex-direction: row;
